@@ -14,7 +14,7 @@ export default ({ data }) => {
   return (
   <Layout>
     <Hero />
-    <Services />
+    {/* <Services /> */}
     <Jobs />
     <Projects projects={projects} title="Featured projects" showLink />
   </Layout>
@@ -33,13 +33,32 @@ export const query = graphql`
         image {
           childImageSharp {
             fluid {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid 
             }
           }
         }
         stack {
           id
           title
+        }
+      }
+    }
+
+    allStrapiBlogs(sort: {fields: date, order: DESC}, limit: 3) {
+      nodes {
+        slug
+        content
+        desc
+        date(formatString: "MMMM Do, YYYY")
+        category
+        id
+        title
+        image {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
         }
       }
     }
