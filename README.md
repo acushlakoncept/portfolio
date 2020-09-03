@@ -28,7 +28,8 @@ The design is based on a follow along tutorial of Gatsby - Strapi Portfolio Proj
  npm start
 ```
 
-If you intend toThe uses Strapi as its API server
+If you intend to use the project for your portfolio, you should note that it uses Strapi as its API server
+Navigate to the [repo](https://github.com/acushlakoncept/portfolio-api), clone it and run `npm run develop` to get started.
 
 
 Build for Production
