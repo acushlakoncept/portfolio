@@ -13,7 +13,7 @@ const Blogs = ({blogs, title, showLink}) => {
     </div>
     {showLink && 
     <Link to="/blog" className="btn center-btn">
-      blog
+      publications
     </Link>
     }
   </section>
