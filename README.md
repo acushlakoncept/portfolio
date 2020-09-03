@@ -40,21 +40,3 @@ Build for Production
 
 After gatsby has successfully build the project, copy the public directory content to your host for deployment.
 
-
-## Author
-
-**Uduak Essien**
-
-- Github: [@acushlakoncept](https://github.com/acushlakoncept/)
-- Twitter: [@acushlakoncept](https://twitter.com/acushlakoncept)
-- Linkedin: [acushlakoncept](https://www.linkedin.com/in/acushlakoncept/)
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/acushlakoncept/portfolio/issues).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
