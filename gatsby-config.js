@@ -6,8 +6,8 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Uduak Essien Portfolio",
-    description: "I am a Full-Stack Remote Software Developer with a creative mindset and ability to help solve challenging domain problems",
+    siteTitle: "Uduak Essien Portfolio",
+    siteDesc: "I am a Full-Stack Remote Software Developer with a creative mindset and ability to help solve challenging domain problems",
     author: "Uduak Essien",
     twitterUsername: "@acushlakoncept",
     image: "/twitter-img.png",
