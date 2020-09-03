@@ -1,12 +1,10 @@
 # Portfolio Page
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9dfe44d9-6bf9-4cd1-84f0-47825b00fcff/deploy-status)](https://app.netlify.com/sites/defconuyo/deploys)
-
 The project is a complete design of my portfolio page
 
 The design is based on a follow along tutorial of Gatsby - Strapi Portfolio Project. If you like it you can follow along as well to build your using [same tutorial](https://www.youtube.com/watch?v=asB-dUwpH4Y).
 
-![screenshot](./imgs/screenshot.jpg)
+![screenshot](./static/twitter-img.png)
 
 ## Built With
 
@@ -16,7 +14,30 @@ The design is based on a follow along tutorial of Gatsby - Strapi Portfolio Proj
 - Strapi
 
 ## Live Demo
-[Live Demo Link](https://defconuyo.netlify.app/)
+[Live Demo Link](http://uduakessien.com)
+
+## Getting Started
+
+```bash
+ git clone https://github.com/acushlakoncept/portfolio.git
+
+ cd portfolio
+
+ npm install
+
+ npm start
+```
+
+If you intend toThe uses Strapi as its API server
+
+
+Build for Production
+
+```bash
+ gatsby clean && gatsby build
+```
+
+After gatsby has successfully build the project, copy the public directory content to your host for deployment.
 
 
 ## Author
