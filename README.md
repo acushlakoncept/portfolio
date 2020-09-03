@@ -1,36 +1,38 @@
-## Setup Notes
+# Portfolio Page
 
-1. All components ready to go (including imports)
-2. Use main.css - less imports
-3. Limit amount of components - better overview
-4. React Icons
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9dfe44d9-6bf9-4cd1-84f0-47825b00fcff/deploy-status)](https://app.netlify.com/sites/defconuyo/deploys)
 
-[react icons] :https://react-icons.github.io/react-icons/
+The project is a complete design of my portfolio page
 
-```javascript
-import { FaHome } from "react-icons/fa"
-const Component = () => {
-  return <FaHome className="icon"></FaHome>
-}
-```
+The design is based on a follow along tutorial of Gatsby - Strapi Portfolio Project. If you like it you can follow along as well to build your using [same tutorial](https://www.youtube.com/watch?v=asB-dUwpH4Y).
 
-5. Use constants to avoid repetition.
-6. In order to follow along with the video use my backend (url below)
+![screenshot](./imgs/screenshot.jpg)
 
-   [strapi backend]:https://github.com/john-smilga/strapi-gatsby-porfolio-2020-api
+## Built With
 
-7. Make sure such content-types exist in your Strapi application. Or replace/delete them in gatsby-config.js
+- HTML
+- CSS
+- Gatsby
+- Strapi
 
-```javascript
-{
-      resolve: `gatsby-source-strapi`,
-      options: {
-        apiURL: `http://localhost:1337`,
-        queryLimit: 1000, // Default to 100
-        // contentTypes: [`jobs`, `projects`, `blogs`, ],
-        //singleTypes:[`about` ]
-        contentTypes: [`jobs`, `projects`, `blogs`],
-        singleTypes: [`about`],
-      },
-    },
-```
+## Live Demo
+[Live Demo Link](https://defconuyo.netlify.app/)
+
+
+## Author
+
+**Uduak Essien**
+
+- Github: [@acushlakoncept](https://github.com/acushlakoncept/)
+- Twitter: [@acushlakoncept](https://twitter.com/acushlakoncept)
+- Linkedin: [acushlakoncept](https://www.linkedin.com/in/acushlakoncept/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/acushlakoncept/portfolio/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
