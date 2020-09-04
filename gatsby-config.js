@@ -8,10 +8,10 @@ module.exports = {
   siteMetadata: {
     siteTitle: "Uduak Essien Portfolio",
     siteDesc: "I am a Full-Stack Remote Software Developer with a creative mindset and ability to help solve challenging domain problems",
-    author: "Uduak Essien",
+    author: "@acushlakoncept",
     twitterUsername: "@acushlakoncept",
     image: "/twitter-img.png",
-    siteUrl: "http://uduakessien.com",
+    siteUrl: "https://uduakessien.com",
   },
   plugins: [
     `gatsby-transformer-sharp`,
