@@ -3,7 +3,8 @@ import {
   FaFacebookSquare,
   FaLinkedin,
   FaGithubSquare,
-  FaBehanceSquare,
+  FaFile,
+  FaAngellist,
   FaTwitterSquare,
 } from "react-icons/fa"
 
@@ -20,8 +21,18 @@ const data = [
   },
   {
     id: 3,
+    icon: <FaAngellist className="social-icon"></FaAngellist>,
+    url: "https://angel.co/u/acushlakoncept",
+  },
+  {
+    id: 4,
     icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
     url: "https://twitter.com/acushlakoncept",
+  },
+  {
+    id: 5,
+    icon: <FaFile className="social-icon"></FaFile>,
+    url: "https://docs.google.com/document/d/1uvF70p3wZKJf7EUSRmtKh2CHu6SfH2yuLsQTO2hcbUg/edit?usp=sharing",
   },
 ]
 const links = data.map(link => {
