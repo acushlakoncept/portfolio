@@ -1,9 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Image from "gatsby-image"
-import { Link } from "gatsby"
 const Blog = ({id, title, image, date, category, slug, desc, url}) => {
-  return <a href={url} className="blog" target="_blank" key={id}> 
+  return <a href={url} className="blog" target="_blank" rel="noopener noreferrer" key={id}> 
     <article>
       <Image fluid={image.childImageSharp.fluid}
       className="blog-img" />
